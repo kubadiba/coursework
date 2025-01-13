@@ -1,0 +1,91 @@
+.dll-container {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 1500px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #fefefe, #f9f9f9);
+  border: 2px solid #8e3d6b;
+  border-radius: 12px; 
+  text-align: center;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.dll-title {
+  font-size: 28px;
+  color: #690342;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.dll-ctrl-panel {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.dll-input {
+  padding: 8px 12px;
+  margin-right: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #8e3d6b;
+  transition: border-color 0.3s ease;
+}
+
+.dll-input:focus {
+  outline: none;
+  border-color: #690342;
+  box-shadow: 0 0 5px rgba(105, 3, 66, 0.5); 
+}
+
+.dll-btn {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #8e3d6b, #690342); 
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.dll-btn:hover {
+  background: linear-gradient(90deg, #690342, #8e3d6b); 
+  transform: scale(1.05); 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dll-home {
+  background: #8e3d6b;
+}
+
+.dll-home:hover {
+  background: #690342;
+}
+
+.dll-visual-block {
+  margin: 0 auto;
+  text-align: center;
+  border: 2px dashed #8e3d6b;
+  padding: 20px;
+  background: linear-gradient(135deg, #ffffff, #f8f0f7);
+  border-radius: 10px;
+  max-height: 500px;
+  overflow-x: auto; 
+  overflow-y: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dll-canvas {
+  display: block;
+  margin: 0 auto;
+
+}
